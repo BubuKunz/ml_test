@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@drawable/bg_bottom_sheet_menu"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:id="@+id/cameraLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:color/transparent"
+            android:foreground="?attr/selectableItemBackground">
+
+        <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/makeAPhotoImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/ic_photo_camera"/>
+
+        <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/makeAPhotoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="14sp"
+                android:textColor="@color/colorDarkerGray"
+                android:text="@string/make_a_photo"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/collectionsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:color/transparent"
+            android:foreground="?attr/selectableItemBackground">
+
+        <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/uploadFromGalleryImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/ic_collections"/>
+
+        <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/uploadFromGallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="14sp"
+                android:textColor="@color/colorDarkerGray"
+                android:text="@string/upload_from_gallery"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="control_background">#cc4285f4</color>
+    <color name="colorDarkerGray">#2B2B2B</color>
+    <color name="colorLightBlue">#799EC0</color>
+    <color name="colorBlue">#003A70</color>
+</resources>
